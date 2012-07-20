@@ -1,0 +1,75 @@
+button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-image: -webkit-linear-gradient(top, #e7eef5, #c9e3ff);
+    border: 0px solid #5c7c99;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 3px rgba(255,255,255,1);
+}
+button:hover {
+    background-image: -webkit-linear-gradient(top, #ffffff, #d2e5fa);
+    cursor: pointer;
+}
+button:active {
+    border: 1px solid #5c7c99;
+}
+button.pressed {
+    background-image: -webkit-linear-gradient(top, #91c8ff, #488fdb);
+}
+button div {
+    width: 100%;
+    height: 100%;
+}
+
+#auto {
+    left: 80px;
+    top: 25px;
+}
+#auto div {
+    background: url(Images/05-shuffle.png) no-repeat center center;
+}
+
+#web {
+    left: 80px;
+    top: 80px;
+}
+#web div {
+    background: url(Images/71-compass.png) no-repeat center center;
+}
+
+#secureweb {
+    left: 80px;
+    top: 122px;
+}
+#secureweb div {
+    background: url(Images/54-lock.png) no-repeat center center;
+}
+
+#ftp {
+    left: 80px;
+    top: 177px;
+}
+#ftp div {
+    background: url(Images/68-paperclip.png) no-repeat center center;
+}
+
+#socksfirewall {
+    left: 80px;
+    top: 232px;
+}
+#socksfirewall div {
+    background: url(Images/127-sock.png) no-repeat center center;
+}
+
+#nsActive {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    width: 240px;
+    font: bold 10px sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(000,000,000,1);
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: top left;
+}
