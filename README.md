@@ -1,8 +1,5 @@
-Dash Proxy
-==========
-
-About
------
+About Dash Proxy
+================
 
 Dash Proxy is a Mac OS X dashboard widget for quickly switching on or off different proxy settings.
 
